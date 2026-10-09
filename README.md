@@ -17,3 +17,6 @@ PANDUAN RESPONS:
 4. Jika membahas Grade Jalur (Grade I - V), sebutkan persyaratannya secara spesifik (misal: kewajiban pemandu/porter, izin, atau sertifikasi).
 
 JAWABAN (WhatsApp Style):
+
+<!-- image -->
+<img src="assets/sop-pendakian.png" />
