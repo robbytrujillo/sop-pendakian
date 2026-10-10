@@ -53,3 +53,12 @@ build/
 # === Coverage & Testing =======================================================
 coverage/
 .nyc_output/
+
+
+.wwebjs_auth/
+.wwebjs_cache/
+
+# WhatsApp QR & session
+wa-qr.png
+.wwebjs_auth/
+.wwebjs_cache/
