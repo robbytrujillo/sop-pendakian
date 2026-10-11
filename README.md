@@ -3,4 +3,6 @@
 <h2>Vendakian</h2>
 
 <!-- image -->
-<img src="assets/sop-pendakian.png" />
+<img src="assets/vendakian.png" />
+
+<img src="assets/vendakian-wa-integration.png" />
