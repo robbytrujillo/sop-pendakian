@@ -17,7 +17,7 @@
     }
   },
   "_meta": {
-    "project":     "Pendakian AI — Asisten SOP Kementerian Kehutanan RI",
+    "project":     "Vendakian. — Asisten SOP Kementerian Kehutanan RI",
     "langflow_url": "http://127.0.0.1:7860",
     "flow_id":     "178760dc-baa0-46c1-850a-75aecc9a7b6f",
     "description": "MCP server ini menghubungkan IBM Bob langsung ke Langflow REST API sehingga Bob dapat memanggil flow pendakian SOP melalui tool MCP secara native, sementara endpoint /api/chat dan /webhook/whatsapp pada server.js melayani traffic web dan WhatsApp secara terpisah."

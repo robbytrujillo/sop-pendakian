@@ -146,11 +146,13 @@ client.on('message', async (msg) => {
     const text = (msg.body || msg.caption || '').trim();
     if (!text) return;
 
-    // ── 3. Filter grup ────────────────────────────────────────────────────────
+    // ── 3. Filter grup & newsletter ──────────────────────────────────────────
     if (msg.isGroupMsg || msg.from.includes('@g.us')) {
       if (MSG_GROUP_IGNORE) await msg.reply(MSG_GROUP_IGNORE);
       return;
     }
+    // Abaikan pesan dari newsletter/broadcast WhatsApp
+    if (msg.from.includes('@newsletter') || msg.type === 'newsletter') return;
 
     // ── 4. Normalisasi sender ID ──────────────────────────────────────────────
     // WhatsApp baru menggunakan format @lid (Linked Device ID) selain @c.us
